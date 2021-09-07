@@ -17,4 +17,4 @@ We then concat the embeddings, normalize, and run clustering.
 - This solution allows classifying new samples as they come in, without having to do any additional work, since it just requires running the embedding through the kmeans model.
 
 4. What are the cases your solution does not cover and what are the ways you can extend your current solution for them?
-If the number of product categories changes, then we would have to repeat this exercise and redo the manual labeling.
+- If the number of product categories changes, then we would have to repeat this exercise and redo the manual labeling.
